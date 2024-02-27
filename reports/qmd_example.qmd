@@ -9,7 +9,9 @@ format:
         toc: true
         toc-depth: 2
 bibliography: references.bib
-
+execute:
+    echo: false 
+    warning: false
 editor: source
 ---
 
