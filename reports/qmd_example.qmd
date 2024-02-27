@@ -74,6 +74,6 @@ Additionally, note that in Table 1 we consider the sample standard deviation of 
 
 Figure 2: Horse populations for the province with the largest standard deviation
 
-In Figure 2 we zoom in and look at the province of ???, which had the largest spread of values in terms of standard deviation.
+In Figure 2 we zoom in and look at the province of `{python} largest_sd`, which had the largest spread of values in terms of standard deviation.
 
 ## References
