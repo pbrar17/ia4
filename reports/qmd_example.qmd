@@ -30,19 +30,19 @@ between 1906 and 1972 for each province.
 
 Horse population data were sourced from the 
 [Government of Canada's Open Data website](http://open.canada.ca/en/open-data) 
-(Government of Canada, 2017a and Government of Canada, 2017b).
+[@horses1 & @horses2].
 
 ## Methods
 
 The Python programming language [@Python]
 and the following Python packages were used to perform the analysis: 
-pandas [@pandas], altair (VanderPlas 2018), click (Team 2020), 
+pandas [@pandas], altair [@altair], click [@click], 
 as well as Quarto (Allaire et al. 2022). 
-*Note: this report is adapted from @ttimbers-horses Timbers (2020).* 
+*Note: this report is adapted from @ttimbers-horses* 
 
 ## Results
 
-![Horse populations for all provinces in Canada from 1906 - 1972.](../results/horse_pops_plot.png){#fig-horse_pops_plot width = 90%}
+![Horse populations for all provinces in Canada from 1906 - 1972.](../results/horse_pops_plot.png){#fig-horse_pops_plot width="90%"}
 
 We can see from @fig-horse_pops_plot that Ontario, Saskatchewan and Alberta 
 have had the highest horse populations in Canada. 
@@ -70,12 +70,10 @@ Note that we define standard deviation (of a sample) as
 
 $$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
-Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure 1.
+Additionally, note that in @tbl-horses_sd we consider the sample standard deviation of the number of horses during the same time span as Figure 1.
 
-![](../results/horse_pops_plot_largest_sd.png)
+![Horse populations for the province with the largest standard deviation](../results/horse_pops_plot_largest_sd.png){#fig-horse_province_plot width="60%"}
 
-Figure 2: Horse populations for the province with the largest standard deviation
-
-In Figure 2 we zoom in and look at the province of `{python} largest_sd`, which had the largest spread of values in terms of standard deviation.
+In [@fig-horse_province_plot] we zoom in and look at the province of `{python} largest_sd`, which had the largest spread of values in terms of standard deviation.
 
 ## References
